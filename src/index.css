@@ -27,6 +27,9 @@
 }
 
 @layer base {
+  html {
+    font-size: 18px;
+  }
   body {
     @apply bg-brand-950 text-slate-100 min-h-screen antialiased;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;

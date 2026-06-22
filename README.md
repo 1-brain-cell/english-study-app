@@ -1,16 +1,20 @@
-# English Study App
+# 🚀 LingoVault (English Study App)
 
-A personal, fully offline English-learning web app. Zero AI runtime, no API keys, no network calls after build. All data lives in your browser (localStorage) with JSON export/import for backup.
+> **Live Web App:** [🔗 Click here to study!](https://1-brain-cell.github.io/english-study-app/)
 
-Built for a Thai native speaker learning two tracks:
-1. **Business / contract / AI-tech English** (focused study)
-2. **Casual immersion** via games (Genshin Impact, Identity V, Valorant esports, osu!) and VTubers (Niyeko, Azeru) and Reddit
+Hey there! 👋 This is a personal, fully offline English-learning web app that I built to help myself study English. It's tailored for my specific needs:
+1. **Business / contract / AI-tech English** (focused study tracks)
+2. **Casual immersion** via games (Genshin Impact, Identity V, Valorant esports, osu!), VTubers (Niyeko, Azeru), and Reddit.
 
-## Why zero-AI
+I created this mainly for my own study, but if you happen to come across it and find it useful, **please feel free to use it, fork it, or clone it for yourself!** 💖 Everything runs 100% in your browser.
 
-It runs forever for free, offline, with no quota and no keys. "Intelligence" is pre-baked into seed data and replaced by algorithms (spaced repetition, quiz generation from your own word bank) and self-assessment rubrics. On-demand explanation hands off to external dictionary links; grammar checking hands off to LanguageTool/Grammarly if you want it.
+---
 
-## For the build agent
+## 🌟 Why zero-AI?
+
+I wanted something that runs forever for free, completely offline, with no limits and no API keys. All "intelligence" is pre-baked into seed data and driven by local algorithms (like the SM-2 Spaced Repetition System and local quiz generators) and self-assessment rubrics. If you need explanations or grammar checks, it easily links out to external dictionaries or LanguageTool/Grammarly.
+
+## 🛠️ For the build agent
 
 Read **GEMINI.md** first, then `docs/BUILD_SPEC.md` and `docs/CURRICULUM.md`.
 
@@ -70,5 +74,14 @@ This project is configured to automatically build and deploy to GitHub Pages via
    - Go to your repository on GitHub: **Settings** ➔ **Pages**.
    - Under **Build and deployment** ➔ **Source**, select **GitHub Actions** from the dropdown menu.
    - Once selected, the workflow will automatically compile the React app and deploy the build outputs to GitHub Pages.
+
+---
+
+## 📢 Recent Updates
+
+* **Global Font Size Boost**: Made text across the entire dashboard slightly larger and much easier to read during quick study breaks.
+* **Refined Deployments**: Configured custom subpathing inside `vite.config.js` and synced deployment triggers with the default `master` branch.
+* **Friendly README Guidelines**: Updated the repo description to invite anyone to clone, fork, or copy parts of LingoVault if they find it helpful.
+
 
 
