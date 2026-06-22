@@ -57,22 +57,18 @@ Turn off wifi, reload the app. Everything works except external-link buttons (di
 * **Icons**: Powered by [Lucide React](https://lucide.dev/) (an open-source community fork of Feather Icons). All active menus, badges, buttons, and state indicators import SVG components locally from `lucide-react`.
 * **Seed Data**: Provenance details and references for vocabulary, legal contracts, and immersion sources are documented in [docs/SOURCES.md](file:///C:/Users/User/Code/english-study-app/docs/SOURCES.md).
 
-## Deploying to GitHub (Ready to Push)
+## Deploying to GitHub Pages
 
-All source files are fully configured and ready to push to GitHub. 
+This project is configured to automatically build and deploy to GitHub Pages via GitHub Actions on every push to the `master` branch.
 
-To host the site live on **GitHub Pages**:
-1. Initialize git and commit your files:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: complete offline english study dashboard"
-   ```
-2. Create a blank repo on GitHub and push to `main`:
-   ```bash
-   git remote add origin https://github.com/your-username/english-study-app.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. Enable Pages: Go to your repository **Settings** ➔ **Pages** ➔ under **Source** choose **GitHub Actions**. The [.github/workflows/deploy.yml](file:///C:/Users/User/Code/english-study-app/.github/workflows/deploy.yml) will automatically build and publish your site.
+* **Repository**: `https://github.com/1-brain-cell/english-study-app`
+* **Live Site URL**: `https://1-brain-cell.github.io/english-study-app/`
+
+### How it works:
+1. **GitHub Actions Workflow**: The configuration in [.github/workflows/deploy.yml](file:///C:/Users/User/Code/english-study-app/.github/workflows/deploy.yml) triggers automatically whenever you push code to the `master` branch.
+2. **One-time Settings Configuration**:
+   - Go to your repository on GitHub: **Settings** ➔ **Pages**.
+   - Under **Build and deployment** ➔ **Source**, select **GitHub Actions** from the dropdown menu.
+   - Once selected, the workflow will automatically compile the React app and deploy the build outputs to GitHub Pages.
+
 
