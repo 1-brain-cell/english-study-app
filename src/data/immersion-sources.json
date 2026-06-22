@@ -1,0 +1,16 @@
+[
+  { "id": "im-niyeko", "name": "Niyeko", "kind": "vtuber", "url": "https://www.twitch.tv/niyeko", "note": "Filipino EN VTuber, Ice Mage persona. Fast, chaotic, high-energy casual speech and heavy slang. Trains the ear for rapid colloquial English." },
+  { "id": "im-azeru", "name": "Azeru", "kind": "vtuber", "url": "https://www.youtube.com/results?search_query=azeru+vtuber", "note": "EN VTuber with a calmer, deeper, voice-actor/ASMR-leaning delivery and deliberate pacing. Trains the ear for clear, measured English. Contrast with Niyeko." },
+  { "id": "im-genshin", "name": "Genshin Impact", "kind": "game", "url": "https://www.hoyolab.com/", "note": "Set text to English. Huge dialogue volume; relaxed lore/quest reading. Vocab: vision, ascension, archon, constellation." },
+  { "id": "im-genshin-reddit", "name": "r/Genshin_Impact", "kind": "reddit", "url": "https://www.reddit.com/r/Genshin_Impact/", "note": "Lore breakdowns, event discussion. Read comments for casual English." },
+  { "id": "im-genshin-wiki", "name": "Genshin Fandom Wiki", "kind": "reddit", "url": "https://genshin-impact.fandom.com/", "note": "English lore reference for quests and characters." },
+  { "id": "im-idv", "name": "Identity V", "kind": "game", "url": "https://www.idv.io/", "note": "Set game to English. Skill terms: decode, cipher, kite, chase, tunnel. Lore: manor, detective, survivor, hunter." },
+  { "id": "im-idv-reddit", "name": "r/IdentityV", "kind": "reddit", "url": "https://www.reddit.com/r/IdentityV/", "note": "Meta/strategy and lore theory, primarily English." },
+  { "id": "im-vct", "name": "VALORANT Champions Tour (VCT)", "kind": "esports", "url": "https://www.youtube.com/@valorant", "note": "Watch English casts. Fast jargon ear training: rotate, retake, eco, clutch, flank, lurk. Plus agent lore." },
+  { "id": "im-valorant-reddit", "name": "r/VALORANT", "kind": "reddit", "url": "https://www.reddit.com/r/VALORANT/", "note": "Esports discussion and agent lore." },
+  { "id": "im-osu", "name": "osu!", "kind": "game", "url": "https://osu.ppy.sh/", "note": "Community terms: FC, pp, acc, stream, jump, farm map." },
+  { "id": "im-osu-reddit", "name": "r/osugame", "kind": "reddit", "url": "https://www.reddit.com/r/osugame/", "note": "Technique discussion." },
+  { "id": "im-vt-reddit", "name": "r/VirtualYoutubers", "kind": "reddit", "url": "https://www.reddit.com/r/VirtualYoutubers/", "note": "General VTuber community English." },
+  { "id": "im-askreddit", "name": "r/AskReddit", "kind": "reddit", "url": "https://www.reddit.com/r/AskReddit/", "note": "Everyday English, slang, sarcasm in comments." },
+  { "id": "im-eli5", "name": "r/explainlikeimfive", "kind": "reddit", "url": "https://www.reddit.com/r/explainlikeimfive/", "note": "Clear explanatory English on any topic." }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rb-summary",
+    "writingType": "summary",
+    "items": [
+      { "id": "s1", "check": "Is the main idea stated in the first sentence?", "category": "structure" },
+      { "id": "s2", "check": "Is it within the target length (~100 words)?", "category": "structure" },
+      { "id": "s3", "check": "Did you use at least 3 new vocabulary words from this phase?", "category": "vocab" },
+      { "id": "s4", "check": "Are verb tenses consistent throughout?", "category": "grammar" },
+      { "id": "s5", "check": "Did you check articles (a/an/the) on every noun?", "category": "grammar" },
+      { "id": "s6", "check": "Are plural nouns correct (no missing -s)?", "category": "grammar" },
+      { "id": "s7", "check": "Is the tone neutral/objective (not opinionated)?", "category": "register" }
+    ]
+  },
+  {
+    "id": "rb-email",
+    "writingType": "email",
+    "items": [
+      { "id": "e1", "check": "Is there a clear, specific subject line?", "category": "structure" },
+      { "id": "e2", "check": "Does the opening match the relationship (formal vs internal)?", "category": "register" },
+      { "id": "e3", "check": "Is the request or purpose stated in the first paragraph?", "category": "structure" },
+      { "id": "e4", "check": "Did you avoid contractions if this is a formal email?", "category": "register" },
+      { "id": "e5", "check": "Subject-verb agreement checked?", "category": "grammar" },
+      { "id": "e6", "check": "Is there a clear closing and call to action?", "category": "structure" },
+      { "id": "e7", "check": "Did you re-read for prepositions (in/on/at/for)?", "category": "grammar" }
+    ]
+  },
+  {
+    "id": "rb-clause",
+    "writingType": "clause",
+    "items": [
+      { "id": "c1", "check": "Did you use 'shall' or 'must' for every obligation?", "category": "grammar" },
+      { "id": "c2", "check": "Did you use 'may' only for rights/discretion?", "category": "grammar" },
+      { "id": "c3", "check": "Are the parties clearly named and defined?", "category": "structure" },
+      { "id": "c4", "check": "Is any condition introduced with 'provided that' / 'subject to'?", "category": "structure" },
+      { "id": "c5", "check": "Did you avoid ambiguous words (reasonable, promptly) without definition?", "category": "vocab" },
+      { "id": "c6", "check": "Is each sentence about one obligation or right only?", "category": "structure" },
+      { "id": "c7", "check": "Did you compare it to a similar clause in the library?", "category": "structure" }
+    ]
+  }
+]

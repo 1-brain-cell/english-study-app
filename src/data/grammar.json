@@ -1,0 +1,95 @@
+[
+  {
+    "id": "gr-modals",
+    "topic": "modals",
+    "summary": "Modal verbs carry distinct legal force in contracts. Choosing the wrong one changes the obligation.",
+    "points": [
+      "shall = mandatory obligation ('must'). 'The Party shall pay' = it is required.",
+      "must = also mandatory; common in plain-language contracts replacing 'shall'.",
+      "may = discretion / permission / a right, not an obligation.",
+      "will = future statement of fact or intent; weaker than 'shall' as an obligation.",
+      "shall not / must not = prohibition."
+    ],
+    "examples": [
+      { "en": "The Supplier shall deliver the goods by 1 May.", "note": "binding obligation on the Supplier" },
+      { "en": "The Client may inspect the goods on delivery.", "note": "a right, not a duty" },
+      { "en": "The Provider must not disclose Confidential Information.", "note": "prohibition" }
+    ]
+  },
+  {
+    "id": "gr-conditionals",
+    "topic": "conditionals",
+    "summary": "Conditionals express obligations and consequences tied to events; heavily used in contracts and negotiation.",
+    "points": [
+      "First conditional (real future): If + present, ... will/shall. Used for likely contractual events.",
+      "Second conditional (hypothetical): If + past, ... would. Used in negotiation framing.",
+      "'Provided that' and 'subject to' introduce conditions on a right or obligation."
+    ],
+    "examples": [
+      { "en": "If the Client fails to pay, the Supplier may suspend the Service.", "note": "first conditional, real consequence" },
+      { "en": "We would lower the price if you committed to a two-year term.", "note": "second conditional, negotiation" },
+      { "en": "The license is granted, provided that the fees are paid in full.", "note": "condition on a right" }
+    ]
+  },
+  {
+    "id": "gr-passive",
+    "topic": "passive",
+    "summary": "Passive voice is standard in formal and legal writing, often to focus on the action or obligation rather than the actor.",
+    "points": [
+      "Form: be + past participle. 'Payment shall be made within 30 days.'",
+      "Used when the actor is obvious, unimportant, or deliberately unstated.",
+      "Overuse harms clarity; prefer active voice in business emails."
+    ],
+    "examples": [
+      { "en": "The report must be submitted by Friday.", "note": "passive, focus on the deliverable" },
+      { "en": "Notice shall be given in writing.", "note": "common legal passive" }
+    ]
+  },
+  {
+    "id": "gr-relative",
+    "topic": "relative-clauses",
+    "summary": "Relative clauses build the long, precise sentences typical of contracts.",
+    "points": [
+      "Defining clause (no commas) restricts meaning: 'the party that breaches'.",
+      "Non-defining clause (commas) adds extra info: 'the Supplier, which is based in Singapore, ...'.",
+      "'which', 'that', 'who', 'whose' connect the clause to a noun."
+    ],
+    "examples": [
+      { "en": "Any party that commits a material breach may be liable.", "note": "defining; restricts which party" },
+      { "en": "The Agreement, which was signed in May, remains in force.", "note": "non-defining; extra info" }
+    ]
+  },
+  {
+    "id": "gr-connectors",
+    "topic": "legal-connectors",
+    "summary": "Formal connective phrases that recur throughout contracts.",
+    "points": [
+      "hereinafter = from this point on in the document",
+      "notwithstanding = in spite of (overrides another clause)",
+      "whereas = used in recitals to give background",
+      "pursuant to = in accordance with",
+      "subject to = conditional upon / limited by",
+      "provided that = on the condition that"
+    ],
+    "examples": [
+      { "en": "Acme Co. (hereinafter 'the Supplier') agrees to the following.", "note": "defines a short name" },
+      { "en": "Notwithstanding Section 4, this clause prevails.", "note": "overrides another section" }
+    ]
+  },
+  {
+    "id": "gr-crossdomain",
+    "topic": "cross-domain-words",
+    "summary": "Words that recur across gaming, tech, and business. Learning both senses reinforces memory.",
+    "points": [
+      "deploy: game (use an ability) / tech (release software) / business (allocate resources)",
+      "scale: game (stat growth) / business (grow capacity)",
+      "meta: game (dominant strategy) / business (prevailing approach)",
+      "grind / farm: game (repeat for rewards) / slang (relentless work)",
+      "performance: osu (pp metric) / business (output vs goals)"
+    ],
+    "examples": [
+      { "en": "We deploy the model to production after testing.", "note": "tech sense" },
+      { "en": "That team comp is the current meta.", "note": "game sense" }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cl-nda-001",
+    "type": "NDA",
+    "title": "Confidentiality Obligation",
+    "text": "The Receiving Party shall keep all Confidential Information strictly confidential and shall not disclose it to any third party without the prior written consent of the Disclosing Party. The Receiving Party may disclose Confidential Information to its employees on a need-to-know basis, provided that such employees are bound by confidentiality obligations no less protective than those set out herein.",
+    "explanation_th": "ฝ่ายผู้รับข้อมูลต้องเก็บข้อมูลลับไว้และห้ามเปิดเผยต่อบุคคลภายนอกโดยไม่ได้รับความยินยอมเป็นลายลักษณ์อักษรล่วงหน้า แต่ 'อาจ' เปิดเผยให้พนักงานเท่าที่จำเป็นได้ ถ้าพนักงานผูกพันด้วยข้อตกลงรักษาความลับที่เข้มงวดไม่น้อยกว่ากัน",
+    "obligations": ["Receiving Party shall keep Confidential Information confidential", "Receiving Party shall not disclose without prior written consent"],
+    "rights": ["Receiving Party may disclose to employees on a need-to-know basis (conditional)"],
+    "watch_terms": ["need-to-know basis", "no less protective", "prior written consent"]
+  },
+  {
+    "id": "cl-pay-001",
+    "type": "payment",
+    "title": "Payment Terms",
+    "text": "The Client shall pay each invoice within thirty (30) days of the invoice date. Any amount not paid when due shall accrue interest at a rate of 1.5% per month. The Client may withhold payment of any amount disputed in good faith, provided that it notifies the Supplier in writing within ten (10) days of receipt of the invoice.",
+    "explanation_th": "ลูกค้าต้องชำระเงินภายใน 30 วันนับจากวันที่ในใบแจ้งหนี้ ถ้าเลยกำหนดจะมีดอกเบี้ย 1.5% ต่อเดือน ลูกค้า 'อาจ' หักยอดที่โต้แย้งโดยสุจริตได้ ถ้าแจ้งเป็นลายลักษณ์อักษรภายใน 10 วัน",
+    "obligations": ["Client shall pay within 30 days", "Overdue amounts shall accrue 1.5% monthly interest"],
+    "rights": ["Client may withhold disputed amounts (conditional on written notice)"],
+    "watch_terms": ["in good faith", "accrue interest", "disputed"]
+  },
+  {
+    "id": "cl-term-001",
+    "type": "termination",
+    "title": "Termination for Cause",
+    "text": "Either party may terminate this Agreement with immediate effect by written notice if the other party commits a material breach that remains uncured for thirty (30) days after written notice of the breach. Termination shall not affect any rights or obligations that have accrued prior to the date of termination.",
+    "explanation_th": "ฝ่ายใดฝ่ายหนึ่ง 'อาจ' บอกเลิกสัญญาทันทีได้ ถ้าอีกฝ่ายผิดสัญญาในสาระสำคัญและไม่แก้ไขภายใน 30 วันหลังได้รับแจ้ง การบอกเลิกไม่กระทบสิทธิหรือหน้าที่ที่เกิดขึ้นก่อนวันบอกเลิก",
+    "obligations": ["Accrued rights and obligations shall survive termination"],
+    "rights": ["Either party may terminate for uncured material breach (conditional on notice + cure period)"],
+    "watch_terms": ["material breach", "uncured", "with immediate effect"]
+  },
+  {
+    "id": "cl-indem-001",
+    "type": "indemnification",
+    "title": "Indemnification",
+    "text": "The Supplier shall indemnify and hold harmless the Client against any third-party claims, damages, and reasonable legal costs arising from the Supplier's breach of this Agreement or infringement of any intellectual property right. The Client shall promptly notify the Supplier of any such claim and shall not settle it without the Supplier's prior written consent.",
+    "explanation_th": "ผู้ขายต้องชดใช้และปกป้องลูกค้าจากการเรียกร้องของบุคคลภายนอกที่เกิดจากการผิดสัญญาหรือละเมิดทรัพย์สินทางปัญญา ลูกค้าต้องแจ้งทันทีและห้ามตกลงประนีประนอมโดยไม่ได้รับความยินยอมจากผู้ขายก่อน",
+    "obligations": ["Supplier shall indemnify and hold harmless the Client", "Client shall promptly notify of claims", "Client shall not settle without consent"],
+    "rights": [],
+    "watch_terms": ["hold harmless", "reasonable legal costs", "infringement"]
+  },
+  {
+    "id": "cl-gov-001",
+    "type": "governing-law",
+    "title": "Governing Law and Jurisdiction",
+    "text": "This Agreement shall be governed by and construed in accordance with the laws of Singapore. The parties hereby submit to the exclusive jurisdiction of the courts of Singapore in respect of any dispute arising out of or in connection with this Agreement.",
+    "explanation_th": "สัญญาอยู่ภายใต้กฎหมายสิงคโปร์ และคู่สัญญายอมรับเขตอำนาจศาลสิงคโปร์โดยเฉพาะสำหรับข้อพิพาทใด ๆ",
+    "obligations": ["Agreement shall be governed by the stated law", "Parties submit to the exclusive jurisdiction"],
+    "rights": [],
+    "watch_terms": ["construed in accordance with", "exclusive jurisdiction", "hereby"]
+  },
+  {
+    "id": "cl-sla-001",
+    "type": "SLA",
+    "title": "Service Level / Uptime",
+    "text": "The Provider shall use commercially reasonable efforts to ensure that the Service is available 99.9% of the time, measured monthly, excluding scheduled maintenance. If availability falls below the committed level, the Customer shall be entitled to service credits as set out in Schedule B.",
+    "explanation_th": "ผู้ให้บริการต้องพยายามตามสมควรทางการค้าให้บริการพร้อมใช้งาน 99.9% ต่อเดือน ยกเว้นช่วงบำรุงรักษาตามกำหนด ถ้าต่ำกว่านั้น ลูกค้ามีสิทธิได้รับเครดิตค่าบริการ",
+    "obligations": ["Provider shall use commercially reasonable efforts for 99.9% uptime"],
+    "rights": ["Customer shall be entitled to service credits if uptime is missed"],
+    "watch_terms": ["commercially reasonable efforts", "scheduled maintenance", "service credits"]
+  },
+  {
+    "id": "cl-dpa-001",
+    "type": "DPA",
+    "title": "Data Processing",
+    "text": "The Processor shall process Personal Data only on documented instructions from the Controller and shall implement appropriate technical and organizational measures to protect such data. The Processor shall not engage a sub-processor without the prior written authorization of the Controller and shall ensure that any sub-processor is bound by equivalent data protection obligations.",
+    "explanation_th": "ผู้ประมวลผลข้อมูลต้องประมวลผลตามคำสั่งที่เป็นลายลักษณ์อักษรของผู้ควบคุมข้อมูลเท่านั้น และต้องมีมาตรการป้องกันข้อมูลที่เหมาะสม ห้ามใช้ผู้ประมวลผลช่วงโดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรก่อน (เกี่ยวข้องกับ GDPR/PDPA)",
+    "obligations": ["Processor shall process only on documented instructions", "Processor shall implement technical and organizational measures", "Processor shall not engage sub-processors without authorization"],
+    "rights": [],
+    "watch_terms": ["documented instructions", "technical and organizational measures", "sub-processor"]
+  }
+]

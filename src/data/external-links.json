@@ -1,0 +1,18 @@
+{
+  "dictionaries": [
+    { "name": "Cambridge", "url": "https://dictionary.cambridge.org/dictionary/english/{q}" },
+    { "name": "Merriam-Webster", "url": "https://www.merriam-webster.com/dictionary/{q}" },
+    { "name": "Longman", "url": "https://www.ldoceonline.com/dictionary/{q}" }
+  ],
+  "grammarTools": [
+    { "name": "LanguageTool", "url": "https://languagetool.org/" },
+    { "name": "Grammarly", "url": "https://app.grammarly.com/" }
+  ],
+  "contracts": [
+    { "name": "SEC EDGAR full-text search", "url": "https://efts.sec.gov/LATEST/search-index?q={q}" },
+    { "name": "SEC EDGAR (browse)", "url": "https://www.sec.gov/cgi-bin/srqsb?text={q}" }
+  ],
+  "reference": [
+    { "name": "TransLegal World Law Dictionary", "url": "https://www.translegal.com/" }
+  ]
+}

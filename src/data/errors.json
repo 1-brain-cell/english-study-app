@@ -1,0 +1,13 @@
+[
+  { "id": "er-art-1", "category": "articles", "wrong": "I sent report to client.", "right": "I sent the report to the client.", "note_th": "ภาษาไทยไม่มี article แต่อังกฤษต้องมี a/an/the หน้าคำนามนับได้เกือบทุกครั้ง" },
+  { "id": "er-art-2", "category": "articles", "wrong": "She is engineer.", "right": "She is an engineer.", "note_th": "อาชีพเอกพจน์ต้องมี a/an นำหน้า" },
+  { "id": "er-plu-1", "category": "plurals", "wrong": "I have two deliverable.", "right": "I have two deliverables.", "note_th": "คำนามนับได้ที่เป็นพหูพจน์ต้องเติม -s ภาษาไทยไม่เปลี่ยนรูป" },
+  { "id": "er-plu-2", "category": "plurals", "wrong": "Many informations.", "right": "Much information.", "note_th": "information เป็นนามนับไม่ได้ ไม่เติม -s และใช้ much ไม่ใช่ many" },
+  { "id": "er-tense-1", "category": "tense", "wrong": "Yesterday I finish the task.", "right": "Yesterday I finished the task.", "note_th": "เหตุการณ์อดีตต้องใช้กริยาช่อง 2 ภาษาไทยใช้คำว่า 'เมื่อวาน' บอกอดีตโดยไม่เปลี่ยนรูปกริยา" },
+  { "id": "er-tense-2", "category": "tense", "wrong": "I work here since 2020.", "right": "I have worked here since 2020.", "note_th": "เหตุการณ์ที่เริ่มในอดีตและยังดำเนินอยู่ใช้ present perfect" },
+  { "id": "er-sv-1", "category": "subject-verb", "wrong": "The team have decided.", "right": "The team has decided.", "note_th": "ประธานเอกพจน์ (team เป็นหน่วยเดียว) กริยาต้องเป็นเอกพจน์ ในอังกฤษแบบอเมริกัน" },
+  { "id": "er-sv-2", "category": "subject-verb", "wrong": "He don't agree.", "right": "He doesn't agree.", "note_th": "ประธานบุรุษที่สามเอกพจน์ใช้ doesn't ไม่ใช่ don't" },
+  { "id": "er-prep-1", "category": "preposition", "wrong": "I will discuss about the contract.", "right": "I will discuss the contract.", "note_th": "discuss ตามด้วยกรรมตรง ไม่ต้องมี about" },
+  { "id": "er-prep-2", "category": "preposition", "wrong": "depend of the result", "right": "depend on the result", "note_th": "depend คู่กับ on เสมอ" },
+  { "id": "er-wo-1", "category": "word-order", "wrong": "I know what is the problem.", "right": "I know what the problem is.", "note_th": "ในประโยคย่อย (indirect question) เรียงประธาน-กริยาตามปกติ ไม่สลับแบบคำถาม" }
+]
