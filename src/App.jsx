@@ -101,10 +101,10 @@ export default function App() {
             {/* Logo area */}
             <div className="flex items-center gap-2.5 px-3">
               <div className="h-8 w-8 rounded-xl bg-gradient-to-tr from-accent-600 to-accent-400 flex items-center justify-center text-white shadow shadow-accent-950">
-                <span className="font-extrabold text-sm tracking-tighter">LV</span>
+                <span className="font-extrabold text-sm tracking-tighter">ES</span>
               </div>
               <div>
-                <h1 className="text-base font-extrabold text-white tracking-tight">LingoVault</h1>
+                <h1 className="text-base font-extrabold text-white tracking-tight">English Study</h1>
                 <p className="text-[10px] text-slate-500 font-semibold tracking-wider uppercase">Offline Study Hub</p>
               </div>
             </div>

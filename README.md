@@ -1,4 +1,4 @@
-# 🚀 LingoVault (English Study App)
+# 🚀 English Study App
 
 > **Live Web App:** [🔗 Click here to study!](https://1-brain-cell.github.io/english-study-app/)
 
@@ -81,7 +81,7 @@ This project is configured to automatically build and deploy to GitHub Pages via
 
 * **Global Font Size Boost**: Made text across the entire dashboard slightly larger and much easier to read during quick study breaks.
 * **Refined Deployments**: Configured custom subpathing inside `vite.config.js` and synced deployment triggers with the default `master` branch.
-* **Friendly README Guidelines**: Updated the repo description to invite anyone to clone, fork, or copy parts of LingoVault if they find it helpful.
+* **Friendly README Guidelines**: Updated the repo description to invite anyone to clone, fork, or copy parts of this app if they find it helpful.
 
 
 
